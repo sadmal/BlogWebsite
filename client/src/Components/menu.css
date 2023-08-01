@@ -1,0 +1,27 @@
+.menu .menuh1{
+    font-style: italic;
+    
+}
+
+.postmod{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 5px;
+}
+
+
+.postmod img{
+    border-radius: 5px;
+    width: 300px;
+    height: 200px;
+}
+
+.postmod button{
+    margin-bottom: 5px;
+    border: none;
+    background-color:#fafbfb ;
+    color: black;
+    padding: 3px;
+    font-weight: bold;
+}

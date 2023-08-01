@@ -1,0 +1,71 @@
+.add{
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    width: 100%;
+    gap: 10px;
+}
+
+.add .content1{
+    flex: 5;
+   
+}
+
+.add .menu1{
+    flex : 2;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.add .menu1 .buttons{
+    margin-left: 5px;
+}
+
+.editorcontainer{
+    height: 300px;
+    overflow: scroll;
+    border: 1px solid lightgray;
+}
+
+.editor{
+    height: 100%;
+    border: none;
+}
+
+.buttons .writebtn{
+    border-radius: 2px;
+    cursor: pointer;
+    padding: 2px;
+    margin-left: 8px;
+    border: none;
+    background-color:  #b9e7e7;
+
+    &:hover{
+    
+        background-color: white;
+        
+        color: #5cd3d3;
+        cursor: pointer;
+    }
+}
+
+
+.file{
+    cursor: pointer;
+    width: fit-content;
+    background-color: #b9e7e7;
+    border-radius: 2px;
+}
+
+
+.item{
+   border: 1px solid lightgray;
+   padding: 10px;
+   flex: 1;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+   font-size: 12px;
+    
+}

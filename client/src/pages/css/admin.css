@@ -1,0 +1,30 @@
+.adminHome{    
+    height: 100vh;
+    width: 100%;
+    background-color:rgb(211, 223, 224);
+}
+
+.adminpost{
+    display: flex;
+    padding: 10px;
+}
+
+.adminpost .adminimg{
+    margin-right: 5px;
+}
+
+.adminimg img{
+    border-radius: 50%;
+}
+
+.adminBtns .Btn1{
+    color: white;
+    font-weight: bold;
+    margin-right: 10px;
+    background-color: #3e9f9f;
+    border: none;
+    border-radius: 2px;
+    padding: 3px;
+    cursor: pointer;
+}
+

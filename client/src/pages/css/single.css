@@ -1,0 +1,91 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.single{    
+    background-color: #c7f4f4;
+    display: flex;
+    gap: 60px;
+    
+}
+
+.single .content{
+    flex: 4;
+}
+
+.commentdecor{
+    font-style: inherit;
+    font-size: 15px;
+}
+
+.commentdecor .deleteComment{
+    width: min-content;
+    height: min-content;
+    font-size: 8px;
+    margin-left: 4px;
+    
+
+    &:hover{
+       cursor: pointer;
+       border: 0px;
+       color: black;
+    }
+}
+
+.single .content .comment{
+    width: fit-content;
+    
+}
+
+.single .menu{
+    flex: 3;
+}
+
+.single .content img{
+    margin-top: 10px;
+    width: 100%;
+    /* height: 70vh; */
+    border-radius: 5px;
+}
+
+.single .content .user .pics{
+    width: 40px;
+    height: 40px;
+}
+
+.likesIcon{
+    display: flex;
+    gap: 8px;
+}
+
+.single .content .user img{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    object-fit: cover;
+    padding-top: 10px;   
+}
+
+.single .content .user{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+
+.likesIcon .likebtn{
+    border: none;
+    width: fit-content;
+    background-color: #c8f5f5;
+}
+
+.likesIcon .dislikebtn{
+    border: none;
+    width: fit-content;
+    background-color: #c8f5f5;
+}
+
+.single .content .user span{
+    font-weight: bolder;
+}
